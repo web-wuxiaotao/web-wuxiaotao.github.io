@@ -1,0 +1,60 @@
+$lgWidth:1200px;
+$mdWidth:992px;
+$smWidth:768px;
+$count:12;
+$padding:15px;
+$margin:15px;
+$type:lg,md,sm,xs;
+@mixin every($nth-type){
+    .container{
+        height: auto;
+        margin:{
+            left:auto;
+            right:auto;
+        }
+        padding:{
+            left:$padding;
+            right:$padding;
+        }
+        box-sizing:border-box;
+        overflow: hidden;
+        & > .row{
+            overflow: hidden;
+            box-sizing: border-box;
+            height:auto;
+            margin:{
+                left:-$padding;
+                right:-$padding;
+            }
+            @for $i from 1 through 12{
+                & > .col-#{$nth-type}-#{$i}{
+                    float: left;
+                    box-sizing: border-box;
+                    padding: {
+                        left:$padding;
+                        right:$padding;
+                    }
+                    width:percentage(1/12)*$i;
+                }
+                & > .offset-#{$nth-type}-#{$i}{
+                    margin-left: percentage(1/12)*$i;
+                }
+            }
+           & > .hidden-#{$nth-type}{
+               display: none;
+           }
+        }
+    }
+}
+@media screen and (min-width:$lgWidth) {
+    @include every(nth($type,1));
+}
+@media screen and (min-width:$mdWidth) and (max-width:$lgWidth) {
+    @include every(nth($type,2));
+}
+@media screen and (min-width:$smWidth) and (max-width:$mdWidth) {
+    @include every(nth($type,3));
+}
+@media screen and (max-width:$smWidth) {
+    @include every(nth($type,4));
+}
