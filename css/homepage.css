@@ -16,10 +16,7 @@ a{
 	height: auto;
 	background: #ced7df;
 }
-.contact .container .col-lg-4 span{
-		font-family:"iconfont" !important;
-		font-style:normal;
-	}
+
 @media screen and (min-width: 1200px) {
 	.header .container{
 		width: 1200px;
@@ -302,7 +299,7 @@ a{
 		font-style: italic;
 		margin-bottom: 40px;
 	}
-	.contact .container .col-lg-4 span{
+	.contact .container .col-lg-4 i{
 		display: block;
 		text-align: center;
 		font-size: 37px;
@@ -601,7 +598,7 @@ a{
 		font-style: italic;
 		margin-bottom: 40px;
 	}
-	.contact .container .col-lg-4 span{
+	.contact .container .col-lg-4 i{
 		display: block;
 		text-align: center;
 		font-size: 37px;
@@ -904,7 +901,7 @@ a{
 	.contact .container .col-lg-4{
 		margin-bottom: 50px;
 	}
-	.contact .container .col-lg-4 span{
+	.contact .container .col-lg-4 i{
 		display: block;
 		text-align: center;
 		font-size: 50px;
@@ -1214,7 +1211,7 @@ a{
 	.contact .container .col-lg-4{
 		margin-bottom: 50px;
 	}
-	.contact .container .col-lg-4 span{
+	.contact .container .col-lg-4 i{
 		display: block;
 		text-align: center;
 		font-size: 50px;
