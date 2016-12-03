@@ -23,7 +23,26 @@ a{
 	overflow: hidden;
 }
 .works .col-lg-4 a img{
-	width: 100%;
+	width: 90%;
+}
+#worksClass{
+	overflow: auto;
+	width: 400px;
+	margin: 30px auto;
+	cursor: pointer;
+}
+#worksClass li{
+	float: left;
+	width: 100px;
+	height: 24px;
+	border-bottom: 1px solid #76B852;
+	text-align: center;
+	line-height: 24px;
+	color: #76B852;
+	font-size: 16px;
+}
+#worksClass .li{
+	background: rgba(255,255,255,0.2);
 }
 @media screen and (min-width: 1200px) {
 	.header .container{
@@ -221,7 +240,13 @@ a{
 	}
 	.works .container{
 		width: 1200px;
-		
+		position: relative;
+	}
+	.works .container .row{
+		display: none;
+	}
+	.works .container .row.rowActive{
+		display: block;
 	}
 	.works .container h2{
 		font-family: 'Jockey One', sans-serif;
@@ -249,16 +274,16 @@ a{
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
-		border: 6px solid #ccc;
+		border: 6px solid #fff;
 		border-radius: 5px;
 		position: relative;
 		z-index: 20;
 		overflow: hidden;
 	}
-	.works .container .col-lg-4:hover a img{
+	.works .container .col-lg-4 a img{
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 5%;
+		left: 5%;
 	}
 	.works .container .col-lg-4 a .zhao{
 		width: 100%;
@@ -278,7 +303,7 @@ a{
 		transition: all 0.5s;
 	}
 	.works .container .col-lg-4:hover a .zhao{
-		opacity: 1;
+		opacity: 0.8;
 		transform: scale(1);
 	}
 	.contact{
@@ -309,9 +334,13 @@ a{
 	}
 	.contact .container .col-lg-4 i{
 		display: block;
-		text-align: center;
-		font-size: 37px;
+		margin: 0 auto;
+		width: 40px;
+		height: 40px;
 		color: #323b43;
+	}
+	.contact .container .col-lg-4 i img{
+		width: 100%;
 	}
 	.contact .container .col-lg-4 p{
 		color: #fff;
@@ -520,6 +549,12 @@ a{
 		width: 900px;
 		
 	}
+	.works .container .row{
+		display: none;
+	}
+	.works .container .row.rowActive{
+		display: block;
+	}
 	.works .container h2{
 		font-family: 'Jockey One', sans-serif;
 		margin: 0;
@@ -541,9 +576,6 @@ a{
 		height: 240px;
 		padding: 5px;
 	}
-	.works .container .col-lg-4:last-child{
-		display: none;
-	}
 	.works .container .col-lg-4 a{
 		display: block;
 		width: 100%;
@@ -555,10 +587,10 @@ a{
 		z-index: 20;
 		overflow: hidden;
 	}
-	.works .container .col-lg-4:hover a img{
+	.works .container .col-lg-4 a img{
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 5%;
+		left: 5%;
 	}
 	.works .container .col-lg-4 a .zhao{
 		width: 100%;
@@ -578,7 +610,7 @@ a{
 		transition: all 0.5s;
 	}
 	.works .container .col-lg-4:hover a .zhao{
-		opacity: 1;
+		opacity: 0.8;
 		transform: scale(1);
 	}
 	.contact{
@@ -608,9 +640,13 @@ a{
 	}
 	.contact .container .col-lg-4 i{
 		display: block;
-		text-align: center;
-		font-size: 37px;
+		margin: 0 auto;
+		width: 40px;
+		height: 40px;
 		color: #323b43;
+	}
+	.contact .container .col-lg-4 i img{
+		width: 100%;
 	}
 	.contact .container .col-lg-4 p{
 		color: #fff;
@@ -820,6 +856,12 @@ a{
 		width: 700px;
 		
 	}
+	.works .container .row{
+		display: none;
+	}
+	.works .container .row.rowActive{
+		display: block;
+	}
 	.works .container h2{
 		font-family: 'Jockey One', sans-serif;
 		margin: 0;
@@ -841,9 +883,6 @@ a{
 		height: 240px;
 		padding: 5px;
 	}
-	.works .container .col-lg-4:last-child{
-		display: none;
-	}
 	.works .container .col-lg-4 a{
 		display: block;
 		width: 100%;
@@ -855,10 +894,10 @@ a{
 		z-index: 20;
 		overflow: hidden;
 	}
-	.works .container .col-lg-4:hover a img{
+	.works .container .col-lg-4 a img{
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 5%;
+		left: 5%;
 	}
 	.works .container .col-lg-4 a .zhao{
 		width: 100%;
@@ -878,7 +917,7 @@ a{
 		transition: all 0.5s;
 	}
 	.works .container .col-lg-4:hover a .zhao{
-		opacity: 1;
+		opacity: 0.8;
 		transform: scale(1);
 	}
 	.contact{
@@ -911,9 +950,13 @@ a{
 	}
 	.contact .container .col-lg-4 i{
 		display: block;
-		text-align: center;
-		font-size: 50px;
+		margin: 0 auto;
+		width: 40px;
+		height: 40px;
 		color: #323b43;
+	}
+	.contact .container .col-lg-4 i img{
+		width: 100%;
 	}
 	.contact .container .col-lg-4 p{
 		color: #fff;
@@ -1129,6 +1172,12 @@ a{
 		min-width: 400px;
 		
 	}
+	.works .container .row{
+		display: none;
+	}
+	.works .container .row.rowActive{
+		display: block;
+	}
 	.works .container h2{
 		font-family: 'Jockey One', sans-serif;
 		margin: 0;
@@ -1150,9 +1199,6 @@ a{
 		height: 240px;
 		padding: 5px;
 	}
-	.works .container .col-lg-4:last-child{
-		display: none;
-	}
 	.works .container .col-lg-4 a{
 		display: block;
 		width: 100%;
@@ -1164,10 +1210,10 @@ a{
 		z-index: 20;
 		overflow: hidden;
 	}
-	.works .container .col-lg-4:hover a img{
+	.works .container .col-lg-4 a img{
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 5%;
+		left: 5%;
 	}
 	.works .container .col-lg-4 a .zhao{
 		width: 100%;
@@ -1187,7 +1233,7 @@ a{
 		transition: all 0.5s;
 	}
 	.works .container .col-lg-4:hover a .zhao{
-		opacity: 1;
+		opacity: 0.8;
 		transform: scale(1);
 	}
 	.contact{
@@ -1221,9 +1267,13 @@ a{
 	}
 	.contact .container .col-lg-4 i{
 		display: block;
-		text-align: center;
-		font-size: 50px;
+		margin: 0 auto;
+		width: 40px;
+		height: 40px;
 		color: #323b43;
+	}
+	.contact .container .col-lg-4 i img{
+		width: 100%;
 	}
 	.contact .container .col-lg-4 p{
 		color: #fff;

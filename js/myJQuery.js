@@ -15,4 +15,19 @@ $(document).ready(function(){
 			}
 		})
 	})	
+	
+	
+	//我的作品
+	function worksClick(){
+		var worksClass=$("#worksClass");
+		var row=$(".works .container .row")
+		worksClass.on("click","li",function(){
+			var index=$(this).index()
+			worksClass.find('li').removeClass("li")
+			$(this).addClass("li")
+			row.removeClass("rowActive")
+			row.eq(index).addClass("rowActive")
+		})
+	}
+	worksClick()
 })
