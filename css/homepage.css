@@ -27,19 +27,19 @@ a{
 }
 #worksClass{
 	overflow: auto;
-	width: 400px;
+	width: 600px;
 	margin: 30px auto;
 	cursor: pointer;
 }
 #worksClass li{
 	float: left;
-	width: 100px;
+	width: 150px;
 	height: 24px;
 	border-bottom: 1px solid #76B852;
 	text-align: center;
 	line-height: 24px;
 	color: #76B852;
-	font-size: 16px;
+	font-size: 20px;
 }
 #worksClass .li{
 	background: rgba(255,255,255,0.2);
@@ -752,7 +752,7 @@ a{
 	}
 	.about .container h3{
 		text-align: center;
-		font-size: 20px;
+		font-size: 24px;
 		color: #d9ffc4;
 		font-weight: 600;
 		font-style: italic;
@@ -764,13 +764,13 @@ a{
 	.about .container .col-lg-10 h4{
 		font-family: 'Jockey One', sans-serif;
 		color: #d9ffc4;
-		font-size: 20px;
+		font-size: 24px;
 		text-transform: uppercase;
 		text-align: center;
 	}
 	.about .container .col-lg-10 p{
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		color: #fff;
 		width: 71%;
 		margin: 0 auto;
@@ -783,13 +783,13 @@ a{
 	.about .container .col-lg-6 h4{
 		font-family: 'Jockey One', sans-serif;
 		color: #d9ffc4;
-		font-size: 20px;
+		font-size: 24px;
 		text-transform: uppercase;
 		text-align: center;
 	}
 	.about .container .col-lg-6 p{
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		color: #fff;
 		width: 71%;
 		margin: 0 auto;
