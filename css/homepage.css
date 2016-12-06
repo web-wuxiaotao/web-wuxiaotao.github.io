@@ -27,19 +27,19 @@ a{
 }
 #worksClass{
 	overflow: auto;
-	width: 600px;
+	width: 680px;
 	margin: 30px auto;
 	cursor: pointer;
 }
 #worksClass li{
 	float: left;
-	width: 150px;
-	height: 24px;
+	width: 170px;
+	height: 40px;
 	border-bottom: 1px solid #76B852;
 	text-align: center;
-	line-height: 24px;
+	line-height: 40px;
 	color: #76B852;
-	font-size: 20px;
+	font-size: 28px;
 }
 #worksClass .li{
 	background: rgba(255,255,255,0.2);
