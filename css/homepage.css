@@ -39,7 +39,7 @@ a{
 	text-align: center;
 	line-height: 40px;
 	color: #76B852;
-	font-size: 28px;
+	font-size: 24px;
 }
 #worksClass .li{
 	background: rgba(255,255,255,0.2);
@@ -846,6 +846,16 @@ a{
 		font-size: 22px;
 		color: #ced7df;
 		text-align: center;
+	}
+	#worksClass li{
+		float: left;
+		width: 170px;
+		height: 40px;
+		border-bottom: 1px solid #76B852;
+		text-align: center;
+		line-height: 40px;
+		color: #76B852;
+		font-size: 24px;
 	}
 	.works{
 		width: 100%;
